@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOT</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>HELP DESK</h1>
+    <div class="reply"></div>
+    <div class="input_box">
+        <textarea id="ques" placeholder="Ask Anything"></textarea>
+        <button id="send">SEND</button>
+    </div>
+    <div class="buttons">
+        <select class="model">
+            <option value="openai/gpt-4o">GPT-4o</option>
+            <option value="mistralai/mistral-7b-instruct" selected="selected">Mistral</option>
+            <option value="google/gemma-7b-it">Gemma</option>
+            <option value="cognitivecomputations/dolphin-2.5-mixtral">Dolphin 2.5 Mixtral</option>
+            <option value="nousresearch/nous-capybara-7b">Nous Capybara 7B</option>
+        </select>
+        <button id="clear">CLEAR ALL</button>
+        <input id=api-key type="text" placeholder="ENTER API KEY">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
