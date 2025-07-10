@@ -20,5 +20,5 @@ Controls:
 
 Setup & Run
 1️⃣ Clone or download the repository.
-2️⃣ Open index.html in your browser.
+2️⃣ Open page1.html in your browser.
 3️⃣ Play!
